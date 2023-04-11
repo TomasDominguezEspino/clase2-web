@@ -1,19 +1,58 @@
 body{
     background-color: #f5eef6;
 }
+
 .titulo{
-   color: #f69d86; 
-}
-.subtitulo{
+    position: absolute;
     color: #f69d86; 
+    text-align: center;
 }
-.foto{
+
+.subtitulo{
+    color: #353433; 
+}
+
+.fotohome{
     border: 2px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 200px;
-margin: 20px;
-padding: 2px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+    margin: 55px;
+    padding: 2px;
 }
+
 .texto{
-    color: #f69d88;
+    margin-left: 20px;
+    background-color: #87898f;
+    width: 330px;
+    height: 100px;
+}
+
+
+body{
+    background-image: url(../imagenes/fondo.png);
+}
+
+nav{
+    height: 120px;
+    width: 100vw;
+    left: 0px;
+    top: 0px;
+    background-color: #87898f;
+}
+
+.linktop{
+    background-color: rgb(215, 235, 235);
+    width: 120PX;
+    margin: 15px;
+    display: flex;
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+.linktop2{
+    display: flex;
+}
+
+.caligrafia{
+    font-size: 1.5em;
 }
